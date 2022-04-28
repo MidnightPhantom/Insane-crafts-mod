@@ -1,3 +1,5 @@
 -- Crafts here
 
-minetest.register_craft
+if minetest.get
+minetest.register_craft({
+              output = ("default:stone_with_diamond
