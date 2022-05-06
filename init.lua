@@ -82,4 +82,17 @@ minetest.register_craft({
                           recipe = {{"fire:permanent_flame", "bucket:bucket_empty", ""},}
                                          
   })
-
+minetest.register_craft({
+                          output = "default:clay ", 
+                          recipe = {{"bucket:bucket_water", "default:sand", "default:dirt"},}
+                                         
+  })
+minetest.register_craft({
+                          output = "default:desert_sand ", 
+                          recipe = {{"default:silver_sand", "default:coal_lump", ""},}
+  })
+minetest.register_craft({
+                          output = "default:silver_sand ", 
+                          recipe = {{"default:deset_sand", "default:snow", ""},}
+                                         
+ })
