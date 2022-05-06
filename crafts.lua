@@ -1,4 +1,3 @@
-version 0.2 of insane_crafts
 -- Crafts here
 
 minetest.register_craft({
