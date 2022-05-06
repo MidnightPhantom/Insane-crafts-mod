@@ -3,4 +3,6 @@
 -- smelting, crafting , soon pummeling will be added
 
 -- load files here
-dofile(modpath../"crafts.lua") --has each and every craft
+insane_crafts = {};
+local modpath = minetest.get_modpath(minetest.get_current_modname());
+dofile(modpath.."/crafts.lua"); --has each and every craft
