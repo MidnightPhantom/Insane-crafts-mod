@@ -44,17 +44,20 @@ minetest.register_craft({
   })
 minetest.register_craft({
                           output = "default:gravel 8", 
-                          recipe = {{"default:cobble", "bucket:bucket_water", ""},}
+                          recipe = {{"default:cobble", "bucket:bucket_water", ""},},
+                          replacements = {{"bucket:bucket_water","bucket:bucket_empty"}},
                                          
   })
 minetest.register_craft({
                           output = "default:dirt 8", 
-                          recipe = {{"default:gravel", "bucket:bucket_water", ""},}
+                          recipe = {{"default:gravel", "bucket:bucket_water", ""},},
+                          replacements = {{"bucket:bucket_water","bucket:bucket_empty"}},
                                          
   })
 minetest.register_craft({
                           output = "default:sand 8", 
-                          recipe = {{"default:dirt", "bucket:bucket_water", ""},}
+                          recipe = {{"default:dirt", "bucket:bucket_water", ""},},
+                          replacements = {{"bucket:bucket_water","bucket:bucket_empty"}},
                                          
   })
 minetest.register_craft({
@@ -84,7 +87,8 @@ minetest.register_craft({
   })
 minetest.register_craft({
                           output = "default:clay ", 
-                          recipe = {{"bucket:bucket_water", "default:sand", "default:dirt"},}
+                          recipe = {{"bucket:bucket_water", "default:sand", "default:dirt"},},
+                          replacements = {{"bucket:bucket_water","bucket:bucket_empty"}},
                                          
   })
 minetest.register_craft({
