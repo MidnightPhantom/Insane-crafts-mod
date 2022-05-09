@@ -1,0 +1,1 @@
+Adds crafting recipies to minetest for uncraftable items. WIP mod. Support for some ores of mineclone 5 has been added 
