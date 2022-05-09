@@ -98,5 +98,94 @@ minetest.register_craft({
 minetest.register_craft({
                           output = "default:silver_sand ", 
                           recipe = {{"default:deset_sand", "default:snow", ""},}
-                                         
- })
+  })
+
+minetest.register_craft({
+                          output = "default:sand ", 
+                          recipe = {{"default:silver_sand", "fire:permanent_flame", ""},}
+  })
+
+minetest.register_craft({
+                          output = "default:sand ", 
+                          recipe = {{"default:desert_sand", "bucket:bucket_water", ""},},
+                          replacements = {{"bucket:bucket_water","bucket:bucket_empty"}},
+  })
+
+
+-- Mineclone
+
+
+minetest.register_craft({
+                           output = "mcl_core:stone_with_emerald 8",
+                           recipe = {{"mcl_core:stone", "mcl_core:stone", "mcl_core:stone"},
+                                         {"mcl_core:stone", "mcl_core:emerald" , "mcl_core:stone"},
+                                         {"mcl_core:stone", "mcl_core:stone", "mcl_core:stone"},
+                                         }
+                                   })
+
+minetest.register_craft({
+                           output = "mcl_core:stone_with_coal 8",
+                           recipe = {{"mcl_core:stone", "mcl_core:stone", "mcl_core:stone"},
+                                         {"mcl_core:stone", "mcl_core:coal_lump" , "mcl_core:stone"},
+                                         {"mcl_core:stone", "mcl_core:stone", "mcl_core:stone"},
+                                         }
+                                   })
+
+minetest.register_craft({
+                           output = "mcl_core:stone_with_redstone 8",
+                           recipe = {{"mcl_core:stone", "mcl_core:stone", "mcl_core:stone"},
+                                         {"mcl_core:stone", "mesecons:redstone" , "mcl_core:stone"},
+                                         {"mcl_core:stone", "mcl_core:stone", "mcl_core:stone"},
+                                         }
+                                   })
+
+minetest.register_craft({
+                           output = "mcl_core:stone_with_lapis 8",
+                           recipe = {{"mcl_core:stone", "mcl_core:stone", "mcl_core:stone"},
+                                         {"mcl_core:stone", "mcl_dye:blue" , "mcl_core:stone"},
+                                         {"mcl_core:stone", "mcl_core:stone", "mcl_core:stone"},
+                                         }
+                                   })
+
+minetest.register_craft({
+                           output = "mcl_core:stone_with_diamond 8",
+                           recipe = {{"mcl_core:stone", "mcl_core:stone", "mcl_core:stone"},
+                                         {"mcl_core:stone", "mcl_core:diamond" , "mcl_core:stone"},
+                                         {"mcl_core:stone", "mcl_core:stone", "mcl_core:stone"},
+                                         }
+                                   })
+
+minetest.register_craft({
+                           output = "mcl_core:stone_with_iron 8",
+                           recipe = {{"mcl_core:stone", "mcl_core:stone", "mcl_core:stone"},
+                                         {"mcl_core:stone", "mcl_core:iron_ingot" , "mcl_core:stone"},
+                                         {"mcl_core:stone", "mcl_core:stone", "mcl_core:stone"},
+                                         }
+                                   })
+
+minetest.register_craft({
+                           output = "mcl_copper:stone_with_copper 8",
+                           recipe = {{"mcl_core:stone", "mcl_core:stone", "mcl_core:stone"},
+                                         {"mcl_core:stone", "mcl_copper:copper_ingot" , "mcl_core:stone"},
+                                         {"mcl_core:stone", "mcl_core:stone", "mcl_core:stone"},
+                                         }
+                                   })
+
+minetest.register_craft({
+                           output = "mcl_core:stone_with_gold 8",
+                           recipe = {{"mcl_core:stone", "mcl_core:stone", "mcl_core:stone"},
+                                         {"mcl_core:stone", "mcl_core:gold_ingot" , "mcl_core:stone"},
+                                         {"mcl_core:stone", "mcl_core:stone", "mcl_core:stone"},
+                                         }
+                                   })
+
+-- mineclone nether
+
+minetest.register_craft({
+                           output = "mcl_nether:ancient_debris 8",
+                           recipe = {{"mcl_blackstone:blackstone", "mcl_blackstone:blackstone", "mcl_blackstone:blackstone"},
+                                         {"mcl_blackstone:blackstone", "mcl_nether:netherite_scrap" , "mcl_blackstone:blackstone"},
+                                         {"mcl_blackstone:blackstone", "mcl_blackstone:blackstone", "mcl_blackstone:blackstone"},
+                                         }
+                                   })
+
