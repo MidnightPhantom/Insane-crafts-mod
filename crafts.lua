@@ -179,6 +179,35 @@ minetest.register_craft({
                                          }
                                    })
 
+minetest.register_craft({
+                           output = "mcl_core:gravel 8",
+                           recipe = {{"mcl_core:cobble", "mcl_buckets:bucket_water", ""},},
+                           replacements = {{"mcl_buckets:bucket_water", "mcl_buckets:bucket_empty"}},
+                                   })
+
+minetest.register_craft({
+                           output = "mcl_core:dirt 8",
+                           recipe = {{"mcl_core:gravel", "mcl_buckets:bucket_water", ""},},
+                           replacements = {{"mcl_buckets:bucket_water", "mcl_buckets:bucket_empty"}},
+                                   })
+
+minetest.register_craft({
+                           output = "mcl_core:sand 8",
+                           recipe = {{"mcl_core:dirt", "mcl_buckets:bucket_water", ""},},
+                           replacements = {{"mcl_buckets:bucket_water", "mcl_buckets:bucket_empty"}},
+                                   })
+
+minetest.register_craft({
+                           output = "mcl_core:redsand",
+                           recipe = {{"mcl_core:sand", "mcl_dye:red", ""},}
+                            })
+
+minetest.register_craft({
+                           output = "mcl_core:sand",
+                           recipe = {{"mcl_core:redsand", "mcl_buckets:bucket_water", ""},},
+                           replacements = {{"mcl_buckets:bucket_water", "mcl_buckets:bucket_empty"}},
+                                   })
+
 -- mineclone nether
 
 minetest.register_craft({
