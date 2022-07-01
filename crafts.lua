@@ -208,6 +208,14 @@ minetest.register_craft({
                            replacements = {{"mcl_buckets:bucket_water", "mcl_buckets:bucket_empty"}},
                                    })
 
+minetest.register_craft({
+                          output = "mcl_core:acaciasapling",
+                          recipe = {{"mcl_core:acacialeaves", "", ""},
+                                    {"mcl_core:stick", "", ""},
+                                    }
+                       })
+        
+
 -- mineclone nether
 
 minetest.register_craft({
@@ -217,4 +225,28 @@ minetest.register_craft({
                                          {"mcl_blackstone:blackstone", "mcl_blackstone:blackstone", "mcl_blackstone:blackstone"},
                                          }
                                    })
+minetest.register_craft({
+                          output = "mcl_nether:nether_wart_item 9",
+                          recipe = {{"mcl_nether:nether_wart_block", "", ""},
+                                    }
+                       })
 
+minetest.register_craft({
+                          output = "mcl_nether:nether_wart_item 9",
+                          recipe = {{"mcl_mushroom:warped_wart_block", "", ""},
+                                   }
+                        })
+
+minetest.register_craft({
+                          output = "mcl_mushroom:crimson_fungus",
+                          recipe = {{"mcl_nether:nether_wart_block", "", ""},
+                                   {"mcl_core:stick", "", ""},
+                                   }
+                         })
+
+minetest.register_craft({
+                          output = "mcl_mushroom:warped_fungus",
+                          recipe = {{"mcl_mushroom:warped_wart_block", "", ""},
+                                   {"mcl_core:stick", "", ""},
+                                   }
+                        })
