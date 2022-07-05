@@ -111,5 +111,10 @@ minetest.register_craft({
                           replacements = {{"bucket:bucket_water","bucket:bucket_empty"}},
   })
 
-
+minetest.register_craft({
+                          output = "default:sapling ",
+                          recipe = {{"default:leaves", "default:leaves", "default:leaves"},
+                                     {"", "default:stick", ""},
+                                    }
+                       })
 
