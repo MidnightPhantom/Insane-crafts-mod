@@ -98,8 +98,45 @@ minetest.register_craft({
                           recipe = {{"mcl_core:acacialeaves", "", ""},
                                     {"mcl_core:stick", "", ""},
                                     }
-                       })
-        
+                        })
+
+minetest.register_craft({
+                         output = "mcl_core:junglesapling ",
+                         recipe = {{"mcl_core:jungleleaves", "", ""},
+                                   {"mcl_core:stick", "", ""},
+                                   }
+                        })
+
+minetest.register_craft({
+                          output = "mcl_core:sapling",
+                          recipe = {{"mcl_core:leaves", "", ""},
+                                    {"mcl_core:stick", "", ""},
+                                    }
+                        })
+
+minetest.register_craft({
+                          output = "mcl_core:birchsapling",
+                          recipe = {{"mcl_core:birchleaves", "", ""},
+                                    {"mcl_core:stick", "", ""},
+                                    }
+                        })
+
+minetest.register_craft({
+                          output = "mcl_core:darksapling",
+                          recipe = {{"mcl_core:darkleaves", "", ""},
+                                    {"mcl_core:stick", "", ""},
+                                    }
+                        })
+
+minetest.register_craft({
+                          output = "mcl_core:sprucesapling",
+                          recipe = {{"mcl_core:spruceleaves", "", ""},
+                                    {"mcl_core:stick", "", ""},
+                                    }
+                        })
+
+
+
 
 -- mineclone nether
 
