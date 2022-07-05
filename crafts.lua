@@ -118,3 +118,31 @@ minetest.register_craft({
                                     }
                        })
 
+minetest.register_craft({
+                          output = "default:aspen_sapling ",
+                          recipe = {{"default:aspen_leaves", "default:aspen_leaves", "default:aspen_leaves"},
+                                     {"", "default:stick", ""},
+                                    }
+                       })
+
+minetest.register_craft({
+                          output = "default:acacia_sapling ",
+                          recipe = {{"default:acacia_leaves", "default:acacia_leaves", "default:acacia_leaves"},
+                                     {"", "default:stick", ""},
+                                    }
+                       })
+
+minetest.register_craft({
+                          output = "default:junglesapling ",
+                          recipe = {{"default:jungleleaves", "default:jungleleaves", "default:jungleleaves"},
+                                     {"", "default:stick", ""},
+                                    }
+                       })
+
+minetest.register_craft({
+                          output = "default:pine_sapling ",
+                          recipe = {{"default:pine_needles", "default:pine_needles", "default:pine_needles"},
+                                     {"", "default:stick", ""},
+                                    }
+                       })
+
