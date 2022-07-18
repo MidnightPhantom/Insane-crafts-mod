@@ -154,6 +154,6 @@ minetest.register_craft({
 
 minetest.register_craft({
                          output = "default:snow",
-                         recipie = {{"default:ice", "default:pick_steel", ""},},
+                         recipe = {{"default:ice", "default:pick_steel", ""},},
                          replacements = {{"default:pick_steel", "default:pick_steel"}},
                      })
