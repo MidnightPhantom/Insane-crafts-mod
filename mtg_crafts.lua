@@ -157,3 +157,8 @@ minetest.register_craft({
                          recipe = {{"default:ice", "default:pick_steel", ""},},
                          replacements = {{"default:pick_steel", "default:pick_steel"}},
                      })
+
+minetest.register_craft({
+                         output = "fireflies:firefly",
+                         recipe = {"default:torch", "butterflies:butterfly_white", ""}},
+                        })
