@@ -160,5 +160,5 @@ minetest.register_craft({
 
 minetest.register_craft({
                          output = "fireflies:firefly",
-                         recipe = {"default:torch", "butterflies:butterfly_white", ""}},
+                         recipe = {{"default:torch", "butterflies:butterfly_white", ""}},
                         })
