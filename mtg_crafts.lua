@@ -168,12 +168,12 @@ minetest.register_craft({
                          recipe = {{"default:dry_grass_1", "default:dry_grass_1", "default:dry_grass_1"}},
                         })
 
-minetest_register_craft({
+minetest.register_craft({
                          output = "farming:seed_wheat",
                          recipe = {{"default:grass_1", "default:grass_1", "default:grass_1"}},
                        })
 
-minetest_register_craft({
+minetest.register_craft({
                          output = "farming:seed_cotton",
                          recipe = {{"default:junglegrass", "default:junglegrass", "default:junglegrass"}},
                        })
