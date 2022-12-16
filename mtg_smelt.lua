@@ -10,3 +10,8 @@ minetest.register_craft({
                   recipe = "bucket:bucket_water",
                 })
 
+minetest.register_craft({
+                  type = "cooking",
+                  output = "default:lava_source",
+                  recipe = "default:steelblock",
+                })
