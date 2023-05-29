@@ -177,3 +177,14 @@ minetest.register_craft({
                          output = "farming:seed_cotton",
                          recipe = {{"default:junglegrass", "default:junglegrass", "default:junglegrass"}},
                        })
+
+minetest.register_craft({
+                         output = "farming_wheat",
+                         type = "shapeless",
+                         recipe = {{"default:dirt", "bucket:bucket_water", "farming_seed_wheat"},
+                                   {"farming:hoe_wood", "", ""},
+                                  },
+                         replacements = {{"default:dirt", "default:dirt"}, 
+                                         {"bucket:bucket_water", "bucket_empty"}, 
+                                         {"farming:hoe_wood", "farming_hoe_wood"}},
+                      })
