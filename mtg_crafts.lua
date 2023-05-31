@@ -179,7 +179,7 @@ minetest.register_craft({
                        })
 
 minetest.register_craft({
-                         output = "farming_wheat",
+                         output = "farming:wheat",
                          recipe = {{"default:dirt", "bucket:bucket_water", "farming:seed_wheat"},
                                    {"farming:hoe_wood", "", ""},
                                   },
@@ -189,7 +189,7 @@ minetest.register_craft({
                       })
 
 minetest.register_craft({
-                         output = "farming_cotton",
+                         output = "farming:cotton",
                          recipe = {{"default:dirt", "bucket:bucket_water", "farming:seed_cotton"},
                                    {"farming:hoe_wood", "", ""},
                                   },
