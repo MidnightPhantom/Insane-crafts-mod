@@ -187,3 +187,13 @@ minetest.register_craft({
                                          {"bucket:bucket_water", "bucket:bucket_empty"}, 
                                          {"farming:hoe_wood", "farming:hoe_wood"}},
                       })
+
+minetest.register_craft({
+                         output = "farming_cotton",
+                         recipe = {{"default:dirt", "bucket:bucket_water", "farming:seed_cotton"},
+                                   {"farming:hoe_wood", "", ""},
+                                  },
+                         replacements = {{"default:dirt", "default:dirt"}, 
+                                         {"bucket:bucket_water", "bucket:bucket_empty"}, 
+                                         {"farming:hoe_wood", "farming:hoe_wood"}},
+                      })
